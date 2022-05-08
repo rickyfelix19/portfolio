@@ -1,15 +1,17 @@
 import React from 'react';
-import './Button.css';
+import * as styles from './Button.css';
 
-function Button() {
+function Button(props) {
+  // const styleName = `button-${props.type}`;
+
   return (
     <div>
-      <div>
-        <h1 className="text-title">Hello World</h1>
-      </div>
-      <div className="button-primary">Button</div>
+      <button className={styleName} onClick={props.handleClick}>
+        {props.children}
+      </button>
     </div>
   );
 }
 
+// Button.propTypes = {};
 export default Button;

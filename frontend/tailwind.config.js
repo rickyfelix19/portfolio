@@ -4,10 +4,10 @@ module.exports = {
     extend: {},
     fontSize: {
       title: ['96px'],
-      H1: ['72px'],
-      H2: ['42px'],
-      H3: ['24px'],
-      H4: ['20px'],
+      h1: ['72px'],
+      h2: ['42px'],
+      h3: ['24px'],
+      h4: ['20px'],
       paragraph: ['18px'],
       subtitle: ['16px']
     }
