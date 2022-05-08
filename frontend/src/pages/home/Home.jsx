@@ -7,18 +7,16 @@ import KnowMe from './components/KnowMe';
 import '../../index.css';
 
 function Home() {
-  const openURL = () => {
-    window.open(`https://resume.io/r/1OGeGqGYN`);
-  };
-
   return (
     <>
-      <div>
-        <HeroCTA />
-      </div>
-
-      <div>
-        <KnowMe />
+      <div className="container-2xl">
+        {/* max-width: 1536px; */}
+        <div>
+          <HeroCTA />
+        </div>
+        <div>
+          <KnowMe />
+        </div>
       </div>
     </>
   );

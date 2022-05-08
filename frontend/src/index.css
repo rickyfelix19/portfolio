@@ -14,6 +14,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* add-ons */
+  height: 100%;
+  font-size: 1.3vw;
 }
 
 code {
@@ -23,12 +26,6 @@ code {
 
 button {
   font-size: calc(10px + 2vmin);
-}
-
-section {
-  width: auto;
-  height: auto;
-  /* top-bottom left-right */
 }
 
 .button-primary {
@@ -90,7 +87,14 @@ section {
   width: 95vw;
   height: 75vh;
   margin: auto;
-  padding: 65px;
+  padding: 55px;
   background-color: #dbdbdb;
   border-radius: 0px 0px 35px 35px;
+}
+
+section {
+  width: auto;
+  height: auto;
+  margin-bottom: 120px;
+  /* top-bottom left-right */
 }

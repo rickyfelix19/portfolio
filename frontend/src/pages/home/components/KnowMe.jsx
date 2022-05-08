@@ -7,18 +7,18 @@ function KnowMe() {
     <>
       <section>
         <div className="flex justify-evenly">
-          <div>
+          <div className="w-3/12">
             <h4 className="text-h4">GET TO KNOW ME</h4>
             <h2 className="text-h2">I WANT TO BE A CREATIVE DEVELOPER</h2>
           </div>
 
-          <div>
-            <p className="text-paragraph">
+          <div className="self-center w-4/12">
+            <h3 className="text-h3">
               After completing my bachelor studies at UTS, Sydney. I decided to
               continue pursue my journey by enrolling to University of Sydney in
               Master of Interaction Design and Electronic Arts. To broaden my
               knowledge in UIUX and Programming. I am currently learning
-            </p>
+            </h3>
           </div>
         </div>
       </section>
