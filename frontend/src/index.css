@@ -98,3 +98,37 @@ section {
   margin-bottom: 120px;
   /* top-bottom left-right */
 }
+
+.faq-box {
+  width: 45vw;
+  height: 55vh;
+  margin: auto;
+  padding: 55px;
+  border-radius: 35px;
+  background-color: #ececec;
+}
+
+img {
+  /* always make picture size 100% width of its original size */
+  width: 100%;
+  height: auto;
+}
+
+/* media screens */
+
+/* For extremely small screen devices (595px and below) */
+/* @media only screen and (max-width: 595px) {...} */
+
+/* Small screen devices (600px and above) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium screen devices (768px and above) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Big screen devices (889px and above) */
+/* @media only screen and (min-width: 889px) {...} */
+
+/* Extra big screen devices (1200px and above) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+/* need to have responsive size typography */

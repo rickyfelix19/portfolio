@@ -11,7 +11,7 @@ function HeroCTA() {
   return (
     <>
       <section>
-        <div className="flex justify-between rounded-background">
+        <div className="flex justify-between flex-wrap rounded-background">
           <div className="flex-col">
             <div>
               <h2 className="text-h2">Hi! My name is Ricky Felix</h2>
@@ -35,7 +35,7 @@ function HeroCTA() {
             </div>
 
             <div>
-              <h4 className="text-h4 italic">experience together</h4>
+              <h2 className="text-h2">experiences together</h2>
             </div>
           </div>
 

@@ -16,8 +16,9 @@ function KnowMe() {
             <h3 className="text-h3">
               After completing my bachelor studies at UTS, Sydney. I decided to
               continue pursue my journey by enrolling to University of Sydney in
-              Master of Interaction Design and Electronic Arts. To broaden my
-              knowledge in UIUX and Programming. I am currently learning
+              Master of Interaction Design and Electronic Arts--to broaden my
+              knowledge in UI/UX, Designing, and Programming that I am currently
+              learning.
             </h3>
           </div>
         </div>
